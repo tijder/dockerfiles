@@ -24,6 +24,7 @@ ARG JRE=default-jre-headless
 RUN apt-get update && apt-get install -y \
   texlive-full \
   libreoffice-calc \
+  plantuml \
   ghostscript \
   # some auxiliary tools
   "$WGET" \
